@@ -31,7 +31,7 @@ if (nightsToJenBirthday > 0) {
   no.innerHTML = `Nope. Jen is not 30 yet. Only ${nightsToJenBirthday} night's sleep. 🌙`;
   console.log(nightsAway(birthdayThomas));
   if (nightsAway(birthdayThomas) === 0) {
-    no.append(" But Thomas is!");
+    no.append(" But Thomas turned 32 today!");
     setGif(partyGifUrl);
   }
 } else {
