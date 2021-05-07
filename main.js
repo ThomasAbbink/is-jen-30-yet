@@ -1,6 +1,6 @@
 const birthdayJen = new Date();
 const birthdayThomas = new Date();
-birthdayThomas.setMonth(4, 7);
+birthdayThomas.setMonth(4, 8);
 birthdayThomas.setHours(0, 0, 0, 0);
 
 birthdayJen.setMonth(9, 5);
