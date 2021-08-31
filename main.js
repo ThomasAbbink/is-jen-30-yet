@@ -3,7 +3,7 @@ const birthdayThomas = new Date();
 birthdayThomas.setMonth(4, 8);
 birthdayThomas.setHours(0, 0, 0, 0);
 
-birthdayJen.setMonth(9, 5);
+birthdayJen.setMonth(11, 5);
 birthdayJen.setHours(0, 0, 0, 0);
 
 const nightsAway = (date) => {
