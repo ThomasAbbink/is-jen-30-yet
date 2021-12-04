@@ -35,8 +35,12 @@ if (nightsToJenBirthday > 0) {
     setGif(partyGifUrl);
   }
 } else {
-  yes.innerHTML = `YES! Woohooo, Party time!`;
+  yes.innerHTML = `<div class="container">
+    <div>YES! Woohooo, Party time!</div>
+    <div>But wait. There is more!. A secret surprise?</div>
+    <div>Follow <a href="https://secret.isjen30yet.com">me</a> to find out.</div>
+  </div>`;
   setGif(partyGifUrl);
-  // yes!
+
   no.style.display = "none";
 }
